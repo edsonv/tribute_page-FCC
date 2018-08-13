@@ -1,0 +1,65 @@
+:root {
+  --font-p: white;
+  --font-s: #211926;
+  --body: #8b6a5b;
+  --main: black;
+  --img: #dac7b8;
+}
+
+body {
+  font-family: 'Fira Sans', system-ui;
+  text-align: center;
+  color: var(--font-p);
+}
+
+#main {
+  background: var(--body);
+  margin: 30px 0;
+  padding: 15px;
+  border: 0px solid;
+  border-radius: 5px;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  padding-top: 30px;
+}
+
+#img-div {
+  margin: 5px;
+  margin-top: 20px;
+  border: 5px solid white;
+  background: var(--img);
+}
+
+#img-caption {
+  margin: 15px;
+  color: var(--font-s);
+}
+
+#headline {
+  text-align: left;
+  margin-top: 50px;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+li {
+  margin: 10px;
+}
+
+#quote {
+  padding: 10px;
+  font-style: italic;
+}
+
+p {
+  font-weight: bold;
+}
