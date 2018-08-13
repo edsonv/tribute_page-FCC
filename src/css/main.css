@@ -1,8 +1,7 @@
 :root {
   --font-p: white;
   --font-s: #211926;
-  --body: #8b6a5b;
-  --main: black;
+  --main: #8b6a5b;
   --img: #dac7b8;
 }
 
@@ -13,12 +12,14 @@ body {
 }
 
 #main {
-  background: var(--body);
+  background: var(--main);
   margin: 30px 0;
   padding: 15px;
   border: 0px solid;
   border-radius: 5px;
 }
+
+#tribute-info {}
 
 #image {
   max-width: 100%;
@@ -41,8 +42,9 @@ body {
 }
 
 #headline {
-  text-align: left;
+  /* text-align: left; */
   margin-top: 50px;
+  display: inline-block;
 }
 
 ul {
@@ -52,7 +54,7 @@ ul {
 }
 
 li {
-  margin: 10px;
+  margin: 20px;
 }
 
 #quote {
