@@ -5,6 +5,7 @@
   --img: #dac7b8;
 }
 
+html,
 body {
   font-family: 'Fira Sans', system-ui;
   text-align: center;
@@ -18,8 +19,6 @@ body {
   border: 0px solid;
   border-radius: 5px;
 }
-
-#tribute-info {}
 
 #image {
   max-width: 100%;
@@ -41,16 +40,19 @@ body {
   color: var(--font-s);
 }
 
-#headline {
-  /* text-align: left; */
-  margin-top: 50px;
+#tribute-info {
   display: inline-block;
+}
+
+#headline {
+  text-align: justify;
+  margin-top: 50px;
 }
 
 ul {
   max-width: 550px;
-  margin: 0 auto;
-  text-align: left;
+  padding: 0;
+  text-align: justify;
 }
 
 li {
